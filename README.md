@@ -1,34 +1,79 @@
-🖥️ Deskripsi Proyek: Landing Page dengan HTML & CSS
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Produk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-Judul Proyek:
-Landing Page Website Promosi
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Brand<span>Ku</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#features">Fitur</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-Deskripsi:
-Proyek ini bertujuan untuk membuat sebuah landing page sederhana menggunakan HTML dan CSS. Halaman ini dirancang untuk menampilkan informasi utama tentang sebuah produk, layanan, atau portofolio secara menarik dan responsif.
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Tingkatkan Bisnis Anda Bersama <span>BrandKu</span></h2>
+      <p>Kami membantu Anda membangun kehadiran online yang kuat dengan desain profesional dan strategi digital yang efektif.</p>
+      <a href="#contact" class="btn">Mulai Sekarang</a>
+    </div>
+  </section>
 
-Fitur Utama:
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p>BrandKu adalah tim kreatif yang berfokus pada solusi digital, desain web, dan strategi pemasaran online. Kami membantu bisnis tumbuh melalui tampilan profesional dan inovatif.</p>
+    </div>
+  </section>
 
-Header dengan logo dan menu navigasi
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Keunggulan Kami</h2>
+      <div class="feature-box">
+        <div class="card">
+          <h3>Desain Modern</h3>
+          <p>Tampilan elegan dan menarik sesuai tren terkini.</p>
+        </div>
+        <div class="card">
+          <h3>Responsif</h3>
+          <p>Tampilan sempurna di semua perangkat, dari ponsel hingga laptop.</p>
+        </div>
+        <div class="card">
+          <h3>Dukungan Penuh</h3>
+          <p>Tim kami siap membantu Anda kapan saja dengan cepat dan profesional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-Hero section dengan gambar utama dan tombol Call to Action
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Hubungi Kami</h2>
+      <p>Ingin bekerja sama atau memiliki pertanyaan? Hubungi kami melalui email di bawah ini.</p>
+      <a href="mailto:info@brandku.com" class="btn">Kirim Email</a>
+    </div>
+  </section>
 
-Bagian tentang produk/jasa dengan deskripsi singkat
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 BrandKu. All rights reserved.</p>
+  </footer>
 
-Bagian testimoni atau keunggulan produk
-
-Footer dengan informasi kontak dan media sosial
-
-
-Teknologi yang Digunakan:
-
-HTML5 untuk struktur halaman
-
-CSS3 untuk desain dan tata letak
-
-Flexbox/Grid untuk mengatur posisi elemen
-
-Responsif agar tampilan menyesuaikan di berbagai ukuran layar
-
-
-Tujuan:
-Membuat halaman yang menarik, informatif, dan mudah diakses oleh pengguna untuk meningkatkan minat pengunjung terhadap produk atau layanan yang ditawarkan.
+</body>
+</html>
